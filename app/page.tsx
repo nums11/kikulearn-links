@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-kiku-50">
+    <main className="bg-gradient-to-br from-purple-50 via-white to-kiku-50">
       {/* Hero Section */}
-      <section className="px-6 py-20">
+      <section className="px-6 py-16">
         <div className="max-w-6xl mx-auto text-center">
           {/* Logo */}
           <div className="mb-8">
@@ -58,23 +58,17 @@ export default function Home() {
           </div>
 
           <p className="text-lg text-gray-500">Support for TikTok, Instagram, YouTube, and more platforms</p>
-        </div>
-      </section>
-
-      {/* Support Section */}
-      <section className="px-6 py-16 bg-white/50">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-lg text-gray-700">
+          <p className="text-lg text-gray-700 mt-8">
             For questions and more info{' '}
-            <a 
-              href="mailto:kikulearnapp@gmail.com" 
+            <a
+              href="mailto:kikulearnapp@gmail.com"
               className="text-kiku-600 hover:text-kiku-700 underline font-medium"
             >
               contact us
             </a>
           </p>
-        </div>
-      </section>
-    </main>
-  )
+          </div>
+        </section>
+      </main>
+    )
 }
